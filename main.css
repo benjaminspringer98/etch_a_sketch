@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 31.25px);
+    grid-template-rows: repeat(16, 31.25px);
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
